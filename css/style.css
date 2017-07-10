@@ -1,0 +1,110 @@
+
+html {
+	background: url("../images/radiatorsprings.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+@media (max-width: 800px) {
+  .introText {
+  	font-size: 36px;
+  }
+}
+.mainBody {
+	height: auto;
+	min-width: 1000px;
+}
+#racer1 {
+	margin-left: 100px;
+	margin-top: 150px;
+	height: 200px;
+	width: 200px;
+	
+}
+#racer2 {
+	margin-left: 100px;
+	margin-top: 50px;
+	height: 200px;
+	width: 200px;
+	
+}
+.gameBody {
+	
+	height: auto;
+}
+.mcqueen, .mater {
+	height: 200px;
+	width: 200px;
+}
+
+.scoreAndTitle {
+	font-family: 'Fontdiner Swanky', cursive;
+	color: white;
+	text-transform: uppercase;
+}
+.introText {
+	font-size: 48px;
+	text-align: center;
+
+}
+.mcqueenText {
+	font-size: 30px;
+	float: left;
+	font-family: 'Fontdiner Swanky', cursive;
+	text-transform: uppercase;
+	color: white;
+	margin-left: 100px;
+}
+
+.materText {
+	font-size: 30px;
+
+	font-family: 'Fontdiner Swanky', cursive;
+	text-transform: uppercase;
+	color: white;
+	margin-right: 100px;
+}
+.characterInfo {
+	text-align: center;
+}
+.mcqueenInfo {
+	font-size: 20px;
+	font-family: 'Fontdiner Swanky', cursive;
+	text-transform: uppercase;
+	color: #9e9e9e;
+	background-color: white;
+	margin-left: 100px;
+
+}
+.materInfo {
+	font-size: 20px;
+	float: right;
+	font-family: 'Fontdiner Swanky', cursive;
+	text-transform: uppercase;
+	color: #9e9e9e;
+	background-color: white;
+	margin-right: 200px;
+}
+#playerWins {
+	width:100%;
+}
+
+#mcqueenTextBox {
+	float: left;
+}
+#materTextBox {
+	float: right;
+}
+.winnerLabel {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	background-color: white;
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 72px;
+	border-radius: 15px;
+}
+
+
+

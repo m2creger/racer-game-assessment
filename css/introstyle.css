@@ -1,0 +1,36 @@
+html {
+	background: url("../images/desert_road_516617.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+
+@media (max-width: 600px) {
+  .introTitle {
+  	font-size: 36px;
+  }
+}
+.introTitle {
+	font-family: 'Fontdiner Swanky', cursive;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-align: center;
+	color: white;
+}
+.startGame {
+	
+	margin-top: 200px;
+}
+a {
+	display: block;
+	text-decoration: none;
+	background-color: white;
+	color: #9e9e9e;
+	height: auto;
+	width: 400px;
+	margin: 0 auto;
+	font-size: 48px;
+	border-radius: 20px;
+	border-color: #9e9e9e;
+	font-family: 'Fontdiner Swanky', cursive;
+	text-transform: uppercase;
+	text-align: center;
+}

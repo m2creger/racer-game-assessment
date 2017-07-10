@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Racer Game</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Fontdiner+Swanky" rel="stylesheet">
+	<link rel="stylesheet" media="(max-width: 800px)" href="css/style.css" />
+</head>
+<body>
+	<div class="gameBody">
+		<div class="scoreAndTitle">
+			<h1 class="introText">Welcome to Radiator Springs</h1>
+		</div>
+		<div class="characterInfo">
+			<label class="mcqueenInfo">Press Z To Move Lightning McQueen</label>
+			<label class="materInfo">Press M To Move Mater</label>
+		</div>
+		<div id="playerWins">
+			<div id="mcqueenTextBox">
+				<h3 class="mcqueenText">Lightning McQueen:</h3>
+			</div>
+			<div id = "materTextBox">
+				<h3 class="materText">Mater:</h3>
+			</div>
+			
+		</div>
+		<div class="mainBody">
+			<div id="racer1" onkeypress="moveRacer1"><img src="images/mcqueen.png" class="mcqueen"></div>
+			<div id="racer2" onkeypress="moveRacer2"><img src="images/mater.png" class="mater"></div>
+		</div> 
+	</div>
+	
+	<script src="js/app.js"></script>
+</body>
+
+</html>
