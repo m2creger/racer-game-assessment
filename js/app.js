@@ -17,6 +17,7 @@ var player2position = 100;
 window.addEventListener("keydown", getKeyPressedDown, false);
 var winnerName = "";
 
+// Check for key has been pressed
 function getKeyPressedDown(key) {
 	console.log("keyevent" + key)
 	switch (event.keyCode) {
@@ -52,9 +53,11 @@ function movePlayer2right() {
 	if (player2.currentPosition < 1000) {
 		console.log(player2.currentPosition);
 		player2.currentPosition += 50;
+		// Change margin left to move player
 		racer2.style.marginLeft = player2.currentPosition + 'px';
 	} else {
 		console.log("player2 won");
+		// Call function to check for win
 		checkForPlayer2Win();
 		
 	}
@@ -62,7 +65,7 @@ function movePlayer2right() {
 
 
 function playerWon(winnerName) {
-	
+	// Create winner display
 	var winner = document.createElement("div");
 	winner.setAttribute("class", "winnerLabel");
 	var newContent = document.createTextNode(winnerName + "Wins!");
@@ -73,16 +76,20 @@ function playerWon(winnerName) {
 
 function checkForPlayer1Win() {
 	console.log("Player1 won");
+	// increment wins
 	player1.wins++;
 	console.log("player 1 wins are " + player1.wins);
+	// set winner name
 	winnerName = "McQueen";
 	playerWon(winnerName);
 
 }
 function checkForPlayer2Win() {
 	console.log("Player1 won");
+	// increment wins
 	player2.wins++;
 	console.log("player 1 wins are " + player1.wins);
+	// set winner name
 	winnerName = "Mater";
 	playerWon(winnerName);
 
