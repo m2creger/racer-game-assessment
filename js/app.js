@@ -1,8 +1,7 @@
 
 var player1 = {
 	currentPosition: 100,
-	wins: 0,
-
+	wins: 0
 };
 // Player 2 moves when key m is pressed
 var player2 = {

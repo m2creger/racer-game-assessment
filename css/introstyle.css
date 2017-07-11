@@ -3,10 +3,30 @@ html {
 	background-size: cover;
 }
 
-@media (max-width: 600px) {
-  .introTitle {
-  	font-size: 36px;
-  }
+@media screen and (min-width: 315px) and (max-width: 800px) {
+	body {
+  		max-width: 768px;
+    }
+    section {
+    	margin: auto;
+    }
+  	.introTitle {
+  		margin: auto;
+  		width: 768px;
+  		font-size: 20px;
+  	}
+  	#gameIntro {
+  		font-size: 24px;
+		
+  	}
+  	.startGameButton {
+  		font-size: 24px;
+  	}
+  	.start {
+  		text-align: center;
+  	}
+  	
+  
 }
 .introTitle {
 	font-family: 'Fontdiner Swanky', cursive;

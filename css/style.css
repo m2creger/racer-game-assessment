@@ -4,24 +4,40 @@ html {
 	background-size: cover;
 }
 
-@media (max-width: 800px) {
-  .introText {
-  	font-size: 36px;
+@media screen and (min-width: 315px) and (max-width: 800px) {
+  body {
+  	width: 768px;
   }
   #racer1 {
-	margin-left: 50px;
-	margin-top: 100px;
+	margin-left: 20px;
+	margin-top: 80px;
 	height: 100px;
 	width: 100px;
   }	
   #racer2 {
-	margin-left: 50px;
-	margin-top: 40px;
+	margin-left: 20px;
+	margin-top: 80px;
 	height: 100px;
 	width: 100px;	
   }
+  .mcqueenInfo {
+  	font-size: 14px;
+  }
+  .gameBody {
+  	margin: auto;
+  }
 
 }
+
+/* Main text and Body */
+.scoreAndTitle {
+	font-family: 'Fontdiner Swanky', cursive;
+	color: white;
+	text-transform: uppercase;
+}
+.introText {
+	font-size: 48px;
+	text-align: center;
 
 }
 .gameBody {
@@ -32,6 +48,7 @@ html {
 	height: auto;
 	min-width: 1000px;
 }
+
 /* Race Cars */
 #racer1 {
 	margin-left: 100px;
@@ -53,17 +70,6 @@ html {
 	
 }
 
-
-.scoreAndTitle {
-	font-family: 'Fontdiner Swanky', cursive;
-	color: white;
-	text-transform: uppercase;
-}
-.introText {
-	font-size: 48px;
-	text-align: center;
-
-}
 /* Character Data */
 .mcqueenText {
 	font-size: 30px;
